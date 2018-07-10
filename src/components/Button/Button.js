@@ -9,7 +9,7 @@ type Props = {
 	/** The color for the button */
 	color?: string,
 	/** The size of the button, can be 'small', 'normal', 'large' */
-	size?: 'small' | 'normal' | 'large',
+	size: 'small' | 'normal' | 'large',
 	/** Disable button */
 	disabled?: boolean,
 	/** Gets called when the user clicks on the button */

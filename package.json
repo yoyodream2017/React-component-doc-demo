@@ -26,7 +26,6 @@
     "file-loader": "1.1.5",
     "fs-extra": "3.0.1",
     "html-webpack-plugin": "2.29.0",
-    "jest": "20.0.4",
     "object-assign": "4.1.1",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.8",
@@ -48,8 +47,10 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
+    "lint": "eslint src",
     "flow": "flow",
-    "styleguidist": "styleguidist server"
+    "styleguidist": "styleguidist server",
+    "prepush": "npm run lint && npm run flow && npm run test"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -96,6 +97,7 @@
   "devDependencies": {
     "faker": "^4.1.0",
     "flow-bin": "^0.76.0",
+    "jest": "^23.3.0",
     "react-styleguidist": "^7.0.20"
   }
 }

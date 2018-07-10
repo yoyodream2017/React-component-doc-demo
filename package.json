@@ -48,7 +48,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "flow": "flow"
+    "flow": "flow",
+    "styleguidist": "styleguidist server"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -93,6 +94,8 @@
     "extends": "react-app"
   },
   "devDependencies": {
-    "flow-bin": "^0.76.0"
+    "faker": "^4.1.0",
+    "flow-bin": "^0.76.0",
+    "react-styleguidist": "^7.0.20"
   }
 }

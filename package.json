@@ -1,6 +1,6 @@
 {
   "name": "react-component-doc-demo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.6",
@@ -42,7 +42,8 @@
     "webpack": "3.8.1",
     "webpack-dev-server": "2.9.4",
     "webpack-manifest-plugin": "1.3.2",
-    "whatwg-fetch": "2.0.3"
+    "whatwg-fetch": "2.0.3",
+    "go-game": "https://github.com/yoyodream2017/Go-Game.git#v0.1.2"
   },
   "scripts": {
     "start": "node scripts/start.js",
@@ -52,6 +53,8 @@
     "flow": "flow",
     "styleguidist": "styleguidist server",
     "prepush": "npm run lint && npm run flow && npm run test",
+    "release": "npm version",
+    "postrelease": "git push origin master && git push --tags",
     "catalog-start": "catalog-start",
     "catalog-build": "catalog-build"
   },

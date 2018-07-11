@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from 'lerna-demo/packages/React-component-doc-demo/lib/components/Button/Button'
 import logo from './logo.svg';
 import './App.css';
 
@@ -13,6 +14,9 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <Button size="large" color="green">
+          Hello world!
+        </Button>
       </div>
     );
   }

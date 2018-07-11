@@ -1,12 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { Catalog, pageLoader } from "catalog";
+import Button from "lerna-demo/packages/React-component-doc-demo/lib/components/Button/Button"
 
 const pages = [
   {
     path: "/",
     title: "Welcome",
     content: pageLoader(() => import("./WELCOME.md"))
+  },
+  {
+    path: "/button",
+    title: "Button",
+    content: pageLoader(() => import("./specimens/ButtonPage") )
+  },
+  {
+    path: "/button2",
+    title: "Button2",
+    content: Button // Doesn't support complex component, if needed, should import a page component.
   },
   {
     path: "/specimens",

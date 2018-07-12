@@ -48,7 +48,7 @@ Then visit http://localhost:9001/
 
 ## Reference
 
-https://react-styleguidist.js.org/
-https://www.catalog.style/
-https://lernajs.io/
-https://storybook.js.org/
+https://react-styleguidist.js.org/<br />
+https://www.catalog.style/<br />
+https://lernajs.io/<br />
+https://storybook.js.org/<br />

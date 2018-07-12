@@ -2,15 +2,15 @@ This project mainly focus on implemention of different guide style libraries.
 
 ## Table of Contents
 
-- [Styleguidist](#Styleguidist)
+- [Styleguidist](#styleguidist)
   
-- [Catalog](#Catalog)
+- [Catalog](#catalog)
 
-- [Lerna](#Lerna)
+- [Lerna](#lerna)
 
-- [Storybook](#Storybook)
+- [Storybook](#storybook)
 
-- [Reference](#Reference)
+- [Reference](#reference)
   
 
 ## Styleguidist
